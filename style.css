@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+    background-image: url("stars.gif");
+    background-size: 80%;
+
+}
+
+#connect4 {
+    background-color: #397498;
+    display: inline-block;
+}
+
+.col {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.col.empty {
+    cursor: pointer;
+}
+
+.next-red {
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+.next-yellow {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.col.red {
+    background-color: red;
+}
+
+.col.yellow {
+    background-color: #f6d600;
+}
+
+h4 {
+    color: gold;
+    font-family: "URW Gothic", serif;
+    font-size: 40px;
+}
+
+#restart {
+    margin-top: 50px;
+
+}
+
+button {
+    block-size: 70px;
+    width: 110px;
+    background-color: #397498;
+    color: #f6d600;
+    border: 2px solid #ee0606;
+    font-family: "URW Gothic", serif;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+#points {
+    color: gold;
+}
